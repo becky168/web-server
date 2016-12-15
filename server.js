@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express(); //建立Express個體
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 var middleware = require("./middleware.js");
 // var middleware = {
